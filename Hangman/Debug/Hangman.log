@@ -1,0 +1,7 @@
+﻿  Hangman_source.c
+e:\proiecte programare\hangman\hangman\hangman\hangman_source.c(13): warning C4018: '<': signed/unsigned mismatch
+e:\proiecte programare\hangman\hangman\hangman\hangman_source.c(116): warning C4018: '<': signed/unsigned mismatch
+e:\proiecte programare\hangman\hangman\hangman\hangman_source.c(134): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\proiecte programare\hangman\hangman\hangman\hangman_source.c(145): warning C4018: '<': signed/unsigned mismatch
+e:\proiecte programare\hangman\hangman\hangman\hangman_source.c(153): warning C4018: '<': signed/unsigned mismatch
+  Hangman.vcxproj -> E:\proiecte programare\Hangman\Hangman\Debug\Hangman.exe
