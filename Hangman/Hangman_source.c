@@ -17,7 +17,7 @@ int validateWord(char insertWord[30]) // a function to check if the word only co
 	}
 	return 1;
 }
-void showHeader() // the header of the interface
+void showHeader() // it displays the header of the interface
 {
 	printf("/");
 	for (int i = 0;i < 40;i++)
@@ -57,7 +57,7 @@ void readWords(L *words, int *n) // a function to check if there are any words i
 		fclose(f);
 	}
 }
-void addWord(L* words, int *n) // a function to add words to the list
+void addWord(L* words, int *n) // adds a word to the list
 {
 	char insertWord[30];
 	printf("Insert the word you would like to add to the list: ");
@@ -184,7 +184,7 @@ void startGame(L* words, int n) // the actual game function
 		system("pause");
 	}
 }
-void showMenu(L* words, int n)
+void showMenu(L* words, int n) // it  displays the game menu, where the user can choose between play, show the list of words or add/delete some word
 {
 	int opt;
 	do {
